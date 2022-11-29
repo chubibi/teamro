@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">teamro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_login_fragment">Bienvenido a </string>
+    <string name="name_login_fragment"> TEAM RE</string>
+    <string name="register_next">Siguiente</string>
+    <string name="register_back">Regresar</string>
+    <string name="text_gender">Selecciona tu genero</string>
+    <string name="text_ask_male">You are planing to use our platform as male?</string>
+    <string name="text_ask_female">You are planing to use our platform as female?</string>
+    <string name="text_male">Masculino</string>
+    <string name="text_female">Femenino</string>
+    <string name="text_teamro">TEAMRO</string>
+
+
 </resources>
