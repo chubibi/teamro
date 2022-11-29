@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_home"
+    app:startDestination="@id/frgLogin">
+
+    <fragment
+        android:id="@+id/frgLogin"
+        android:name="com.example.teamro.FrgLogin"
+        android:label="frg_login_one"
+        tools:layout="@layout/frg_login" >
+        <action
+            android:id="@+id/frgLogintofrgSingIn"
+            app:destination="@id/frgSingIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/frgSingIn"
+        android:name="com.example.teamro.FrgSingIn"
+        android:label="frg_sing_in"
+        tools:layout="@layout/frg_sing_in" />
+
+</navigation>
