@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:checkable="true"
+        app:cardCornerRadius="20dp"
+        app:checkedIcon="@drawable/ic_check"
+        app:strokeColor="@drawable/stroke_gender"
+        app:strokeWidth="4dp">
+        <TextView
+            android:id="@+id/tvGoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textSize="24sp" />
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

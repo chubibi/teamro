@@ -17,8 +17,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:fontFamily="@font/titulos"
         android:gravity="center"
-        android:padding="20sp"
+        android:padding="10sp"
         android:text="@string/text_gender"
         android:textColor="@color/black"
         android:textSize="40sp"
@@ -26,16 +27,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
         android:layout_margin="10dp"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:orientation="horizontal">
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvMale"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:cardCornerRadius="8dp">
+            android:backgroundTint="@color/white"
+            android:checkable="true"
+            app:cardCornerRadius="8dp"
+            app:checkedIcon="@drawable/ic_check"
+            app:strokeColor="@drawable/stroke_gender"
+            app:strokeWidth="4dp">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -54,6 +62,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/titulos"
                     android:padding="10sp"
                     android:text="@string/text_male"
                     android:textColor="@color/black"
@@ -64,26 +73,34 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/fontregular"
                     android:padding="4sp"
                     android:text="@string/text_ask_male"
-                    android:textColor="@color/ask_background"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
         <FrameLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".2" />
 
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvFemale"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:cardCornerRadius="8dp">
+            android:backgroundTint="@color/white"
+            android:checkable="true"
+            app:cardCornerRadius="8dp"
+            app:checkedIcon="@drawable/ic_check"
+            app:strokeColor="@drawable/stroke_gender"
+            app:strokeWidth="4dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -102,6 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/titulos"
                     android:padding="10sp"
                     android:text="@string/text_female"
                     android:textColor="@color/black"
@@ -112,15 +130,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:fontFamily="@font/fontregular"
                     android:padding="4sp"
                     android:text="@string/text_ask_female"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
 
             </LinearLayout>
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
     </LinearLayout>
 
 </LinearLayout>

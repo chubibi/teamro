@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/fragment_background"
     tools:context=".register.presentation.ui.FrgGoal">
-
-    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/iSearch"
+        layout="@layout/base_header" />
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="goal" />
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titulos"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="@string/text_goal"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

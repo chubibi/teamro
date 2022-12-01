@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
             android:layout_marginTop="16dp"
-            android:fontFamily="@font/work_sans_light"
+            android:fontFamily="@font/titulos"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -42,7 +42,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
-            android:fontFamily="@font/work_sans_light"
+            android:fontFamily="@font/fontregular"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -76,6 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/titulos"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -114,6 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/titulos"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -152,6 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
+                    android:fontFamily="@font/titulos"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -181,11 +184,11 @@
         <TextView
             android:layout_weight="1"
             android:layout_marginHorizontal="16dp"
-            android:fontFamily="@font/darker_grotesque_medium"
             android:textStyle="bold"
             android:textColor="@color/black"
             android:textSize="26sp"
-            android:text="estadistica"
+            android:text="estadistíca"
+            android:fontFamily="@font/titulos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -196,6 +199,7 @@
             android:textColor="@color/black"
             android:layout_weight="1"
             android:text="ver más"
+            android:fontFamily="@font/fontregular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
@@ -249,6 +253,7 @@
                         android:src="@drawable/ic_launcher_background" />
 
                     <TextView
+                        android:fontFamily="@font/titulos"
                         android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -283,6 +288,7 @@
                         android:src="@drawable/ic_launcher_background" />
 
                     <TextView
+                        android:fontFamily="@font/titulos"
                         android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -319,6 +325,7 @@
                         android:src="@drawable/ic_launcher_background" />
 
                     <TextView
+                        android:fontFamily="@font/titulos"
                         android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -353,6 +360,7 @@
                         android:src="@drawable/ic_launcher_background" />
 
                     <TextView
+                        android:fontFamily="@font/titulos"
                         android:textColor="@color/white"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
