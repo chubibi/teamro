@@ -29,7 +29,7 @@
         app:dotsSpacing="4dp"
         app:dotsWidthFactor="2.5"
         app:progressMode="true"
-        app:selectedDotColor="@color/purple_500" />
+        app:selectedDotColor="@color/one" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -43,6 +43,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="10dp"
             android:text="@string/register_next"
+            android:fontFamily="@font/titulos"
             android:textColor="@color/register_blue"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvBack"
@@ -57,6 +58,7 @@
             android:layout_marginHorizontal="16dp"
             android:layout_marginTop="10dp"
             android:text="@string/register_back"
+            android:fontFamily="@font/titulos"
             android:textColor="@color/register_blue"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="@+id/tvNext"

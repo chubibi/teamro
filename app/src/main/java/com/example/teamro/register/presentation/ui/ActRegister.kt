@@ -47,12 +47,16 @@ class ActRegister : AppCompatActivity() {
         viewPager = binding.vpRegister
         setContentView(binding.root)
         val vpAdapter = VPAdapter(this)
-        vpAdapter.addFragment(FrgAge())
-        vpAdapter.addFragment(FrgGender())
-        vpAdapter.addFragment(FrgGoal())
+        addAllFragment(vpAdapter)
         size = vpAdapter.getSize()
         viewPager.adapter = vpAdapter
         viewPager.registerOnPageChangeCallback(pagerCallback)
         binding.diRegister.setViewPager2(viewPager)
+    }
+
+    private fun addAllFragment(vpAdapter: VPAdapter) {
+        vpAdapter.addFragment(FrgGender())
+        vpAdapter.addFragment(FrgGoal())
+        vpAdapter.addFragment(FrgAge())
     }
 }
