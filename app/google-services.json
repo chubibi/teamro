@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "572558083497",
+    "project_id": "teamro-d6c83",
+    "storage_bucket": "teamro-d6c83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572558083497:android:e6fca9fb4c5423805630b8",
+        "android_client_info": {
+          "package_name": "com.example.teamro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572558083497-pa3fbgoe306033hoot6qmkr8fpatgbaf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvcb9BUjmU92qQRVDeDgoLhq_LiWsvu9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572558083497-pa3fbgoe306033hoot6qmkr8fpatgbaf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
