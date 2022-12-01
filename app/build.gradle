@@ -4,6 +4,7 @@ plugins {
     id 'kotlin-kapt'//es necesario para room
     id 'androidx.navigation.safeargs.kotlin'
     id 'dagger.hilt.android.plugin'
+    id 'com.google.gms.google-services'
 
 }
 
@@ -86,5 +87,7 @@ dependencies {
     kapt 'com.google.dagger:hilt-android-compiler:2.41'
     //Firebase
     //implementation 'com.google.firebase:firebase-firestore-ktx'
+    //FireStore DATABASE
+    implementation 'com.google.firebase:firebase-firestore-ktx'
 
 }
