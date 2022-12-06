@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fragment_background"
-    tools:context=".register.presentation.ui.FrgAge">
+    android:orientation="vertical"
+    tools:context=".register.presentation.ui.FrgGoal">
 
-    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/iSearch"
+        layout="@layout/base_header" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Age" />
+        android:layout_height="0dp"
+        android:fontFamily="@font/titulos"
+        android:gravity="center"
+        android:padding="10sp"
+        android:layout_weight="1"
+        android:text="@string/text_age"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/numberPicker"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:np_dividerColor="@color/one"
+        app:np_dividerThickness="5dp"
+        app:np_itemSpacing="5dp"
+        android:layout_weight="5"
+        app:np_selectedTextColor="@color/one"
+        app:np_selectedTextSize="30dp"
+        app:np_textColor="@color/black"
+        app:np_textSize="20dp"
+        app:np_width="64dp"
+        app:np_wrapSelectorWheel="true" />
+    <TextView
+        android:id="@+id/tvAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp"
+        android:layout_weight="1"
+        android:text="@string/text_age_2"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

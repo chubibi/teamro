@@ -3,12 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/fragment_background"
+    android:orientation="vertical"
     tools:context=".register.presentation.ui.FrgGoal">
+
     <include
         android:id="@+id/iSearch"
         layout="@layout/base_header" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,9 +22,27 @@
         android:textSize="40sp"
         android:textStyle="bold" />
 
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shmViewLoad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_row_goal_load" />
+
+            <include layout="@layout/item_row_goal_load" />
+
+            <include layout="@layout/item_row_goal_load" />
+        </LinearLayout>
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvGoal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
