@@ -11,6 +11,7 @@
     <color name="register_blue">#5391F8</color>
     <color name="fragment_background">#E7E9E9</color>
     <color name="ask_background">#9E9B9B</color>
+    <color name="place_holder_background">#FFFFFF</color>
 
 
 

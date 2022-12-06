@@ -8,6 +8,8 @@
     <string name="register_back">Regresar</string>
     <string name="text_gender">Selecciona tu genero</string>
     <string name="text_goal">¿Cual es tu meta?</string>
+    <string name="text_age">¿Cual es tu edad?</string>
+    <string name="text_age_2">Tu edad es de: 18</string>
     <string name="text_ask_male">You are planing to use our platform as male?</string>
     <string name="text_ask_female">You are planing to use our platform as female?</string>
     <string name="text_male">Masculino</string>
