@@ -39,7 +39,6 @@ class RegisterViewModel @Inject constructor(
     }
 
     fun saveAllData() {
-
         _allData.postValue(_gender.value != null && _goal.value != null && _age.value != null)
     }
 }
